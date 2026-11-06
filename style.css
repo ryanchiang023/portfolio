@@ -61,8 +61,8 @@ main h2 {
 /* Project cards */
 .project-card {
     background: #FFFFFF;
-    padding: 50px 35px;
-    min-height: 390px;
+    padding: 55px 38px;
+    min-height: 420px;
     border-radius: 15px;
     border: 1px solid #EAE4DA;
     box-shadow: 0 4px 14px rgba(70, 55, 35, 0.04);
@@ -82,18 +82,18 @@ main h2 {
 /* Project titles */
 .project-card h3 {
     font-family: 'Playfair Display', serif;
-    font-size: 25px;
-    line-height: 1.5;
-    margin-bottom: 25px;
+    font-size: 28px;
+    line-height: 1.45;
+    margin-bottom: 28px;
     color: #484137;
 }
 
 /* Project descriptions */
 .project-card p {
     color: #817668;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.9;
-    margin-bottom: 35px;
+    margin-bottom: 40px;
 }
 
 /* Button container */
@@ -116,10 +116,10 @@ main h2 {
     background: #88745D;
     color: #FFFFFF;
 
-    padding: 15px 10px;
+    padding: 16px 10px;
     border-radius: 7px;
 
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
 
     transition: background 0.2s, transform 0.2s;
@@ -191,16 +191,16 @@ footer a:hover {
     }
 
     .project-card {
-        min-height: 330px;
+        min-height: 350px;
         padding: 40px 25px;
     }
 
     .project-card h3 {
-        font-size: 23px;
+        font-size: 25px;
     }
 
     .project-card p {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .project-links a {
