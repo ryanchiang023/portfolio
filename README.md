@@ -19,7 +19,7 @@ A website about how the New York Knicks ended their 53-year drought to win the 2
 
 [View Project](https://ryanchiang023.github.io/knicks-2026/)
 
-## Technologies Used
+## Languages Used
 
 - HTML
 - CSS
