@@ -37,16 +37,16 @@ header p {
 
 /* Main section */
 main {
-    max-width: 1100px;
-    margin: 70px auto;
-    padding: 0 25px;
+    max-width: 1300px;
+    margin: 75px auto;
+    padding: 0 35px;
     text-align: center;
 }
 
 main h2 {
     font-family: 'Playfair Display', serif;
     font-size: 32px;
-    margin-bottom: 38px;
+    margin-bottom: 45px;
     color: #39352F;
 }
 
@@ -54,17 +54,22 @@ main h2 {
 .projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
+    gap: 30px;
+    align-items: stretch;
 }
 
 /* Project cards */
 .project-card {
     background: #FFFFFF;
-    padding: 35px 25px;
-    border-radius: 12px;
+    padding: 50px 35px;
+    min-height: 340px;
+    border-radius: 14px;
     border: 1px solid #EAE4DA;
     box-shadow: 0 4px 14px rgba(70, 55, 35, 0.04);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     transition: transform 0.25s, box-shadow 0.25s;
 }
 
@@ -77,22 +82,17 @@ main h2 {
 .project-card h3 {
     font-family: 'Playfair Display', serif;
     font-size: 21px;
-    line-height: 1.4;
-    margin-bottom: 15px;
-    color: #484137;
-}
-
-/* Smaller font for the longer AP CSP title */
-.project-card:first-child h3 {
-    font-size: 17px;
     line-height: 1.5;
+    margin-bottom: 22px;
+    color: #484137;
 }
 
 /* Project descriptions */
 .project-card p {
     color: #817668;
     font-size: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
+    line-height: 1.8;
 }
 
 /* Project links */
@@ -101,7 +101,7 @@ main h2 {
     text-decoration: none;
     background: #88745D;
     color: #FFFFFF;
-    padding: 9px 17px;
+    padding: 10px 18px;
     border-radius: 6px;
     font-size: 13px;
     font-weight: 600;
@@ -111,6 +111,11 @@ main h2 {
 
 .project-card a:hover {
     background: #665541;
+}
+
+/* Push buttons toward the bottom */
+.project-card a:first-of-type {
+    margin-top: auto;
 }
 
 /* Footer */
@@ -134,7 +139,7 @@ footer a:hover {
 }
 
 /* Responsive layout */
-@media (max-width: 850px) {
+@media (max-width: 950px) {
     .projects {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -151,9 +156,15 @@ footer a:hover {
 
     main {
         margin: 45px auto;
+        padding: 0 20px;
     }
 
     .projects {
         grid-template-columns: 1fr;
+    }
+
+    .project-card {
+        min-height: 300px;
+        padding: 40px 25px;
     }
 }
