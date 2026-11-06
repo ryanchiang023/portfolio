@@ -73,13 +73,22 @@ main h2 {
     box-shadow: 0 10px 24px rgba(70, 55, 35, 0.09);
 }
 
+/* Project titles */
 .project-card h3 {
     font-family: 'Playfair Display', serif;
-    font-size: 22px;
+    font-size: 21px;
+    line-height: 1.4;
     margin-bottom: 15px;
     color: #484137;
 }
 
+/* Smaller font for the longer AP CSP title */
+.project-card:first-child h3 {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+/* Project descriptions */
 .project-card p {
     color: #817668;
     font-size: 15px;
