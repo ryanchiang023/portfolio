@@ -1,6 +1,6 @@
 # My Portfolio
 
-Welcome to my programming portfolio! This website showcases projects I have worked on while learning computer science and web development. These projects show how I apply what I have learned to my hobbies and interests.
+Welcome to my programming portfolio! This website showcases projects I have worked on while learning computer science and web development. These projects show how I apply what I have learned to my hobbies and interests!
 
 ## My Projects
 
